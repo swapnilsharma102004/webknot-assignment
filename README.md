@@ -1,47 +1,38 @@
 # Webknot Assignment – Project Documentation
 
 ## Project Understanding and Initial Steps
-When I received the assignment, I started by carefully going through the requirements and understanding the problem statement.  
-To get more clarity, I designed an ER diagram to map out the entities and their relationships. This step helped me visualize the data flow and overall structure of the project.
+When I got the assignment, I began by reviewing the requirements and understanding the problem statement. To gain more clarity, I created an ER diagram to outline the entities and their relationships. This step helped me see the data flow and the overall structure of the project.
 
-After that, I consolidated the requirements and the PDF document provided by the company. I used those details to generate a suitable prompt with the help of Gemini Pro, so I could quickly bootstrap the development environment using Windsurf.
+Next, I combined the requirements with the PDF document from the company. I used that information to create a suitable prompt with Gemini Pro, allowing me to quickly set up the development environment using Windsurf.
 
 ---
 
 ## Choice of Tech Stack
-Since I had some prior experience with **Java Spring Boot**, I decided to use it for the backend.  
-For the frontend, I chose **React** because of its flexibility and ease of integration.  
-As for the database, I selected **PostgreSQL** since it is reliable and scalable for future use cases.
+Since I had some prior experience With **Java Spring Boot**, I chose it for the backend. For the frontend, I picked **React** because it is flexible and easy to integrate. For the database, I selected **PostgreSQL** since it is reliable and can grow with future needs.
 
-This combination provided a solid full-stack setup:  
+This combination gave me a strong full-stack setup:  
 - **Backend:** Java Spring Boot  
 - **Frontend:** React  
-- **Database:** PostgreSQL  
+- **Database:** PostgreSQL    
 
 ---
 
 ## Development Process
 1. **Backend Setup**  
-   I used Windsurf to generate the initial Spring Boot code and then made edits to align with the requirements.  
-   Since I was already familiar with running Spring Boot applications, setting up and executing the backend was straightforward.
+I used Windsurf to create the initial Spring Boot code and then made some edits to meet the requirements. Since I was already familiar with running Spring Boot applications, setting up and running the backend was simple.
 
 2. **Frontend Setup**  
-   Once the backend was running, I shifted to the frontend and integrated it with the API.  
-   To simplify testing, I kept the project basic and preloaded three students and one admin in the database.  
-   (Note: This is not a recommended practice in real projects, but it made the demo easier to test.)
+Once the backend was running, I moved to the frontend and connected it with the API. To make testing easier, I kept the project simple and added three students and one admin to the database. (Note: This is not a good practice in real projects, but it made the demo simpler to test.)
 
 3. **Handling Challenges**  
-   During development, I encountered issues like **CORS policy errors**.  
-   Fortunately, since I had worked on a similar problem before, I was able to resolve it by configuring CORS in the Spring Boot backend.  
-   Once that was fixed, the frontend and backend started working together as expected.
+During development, I ran into issues like **CORS policy errors**. Fortunately, I had dealt with a similar problem before, so I fixed it by configuring CORS in the Spring Boot backend. Once that was resolved, the frontend and backend started working together correctly.
 
 ---
 
 ## Current State of the Project
 - The system has **basic authentication** with pre-created users (3 students, 1 admin).  
-- User registration was intentionally not implemented, since it will be handled by the company as part of their review process.  
-- The project is functional and demonstrates how the stack works together.
-
+- I did not implement user registration because the company will handle it as part of their review process.  
+- The project works and shows how the stack operates together.
 ---
 
 ## How to Run
@@ -108,7 +99,6 @@ To make testing easier, the following users are already preloaded into the syste
 ---
 
 ## Reflection
-The project gave me an opportunity to apply my Spring Boot knowledge while also practicing full-stack development with React and PostgreSQL.  
-Although I leveraged code generation tools to speed up the setup, I ensured that I understood the flow, made necessary edits, and handled key challenges like CORS.  
+The project allowed me to use my Spring Boot knowledge and practice full-stack development with React and PostgreSQL. I used code generation tools to speed up the setup. However, I made sure to understand the flow, make necessary edits, and address key challenges like CORS. 
 
-This approach helped me deliver a working solution within the given timeline while keeping it scalable for future improvements.
+This method helped me deliver a working solution on time while keeping it scalable for future improvements.
